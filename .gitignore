@@ -1,0 +1,8 @@
+*~
+raw_data*
+sunshinegr/node_modules/*
+__pycache__/*
+.DS-Store
+**/*.tfvars
+**/*.tfstate
+

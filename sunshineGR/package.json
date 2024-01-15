@@ -1,0 +1,22 @@
+{
+  "name": "sunshineGR",
+  "version": "1.0.0",
+  "description": "Cloud Run Service to fetch all decisions for a given day",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Yiannis Yiakoumis",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@google-cloud/storage": "^6.9.3",
+    "@google-cloud/tasks": "^3.1.1",
+    "express": "^4.17.1",
+    "greek-utils":"^1.3.0",
+    "axios": "^1.4.0",
+    "async": "^3.2.0"
+  },
+  "engines" : { 
+    "node" : "18.x.x"
+  }
+}
