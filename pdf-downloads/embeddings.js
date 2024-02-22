@@ -22,12 +22,6 @@ const client = new DocumentProcessorServiceClient({ apiEndpoint: 'eu-documentai.
 
 const ROCKSET_WPS = 10;
 
-// const configuration = new Configuration({
-//   apiKey: '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'
-// });
-// const openai = new OpenAIApi(configuration);
-// const enc = encoding_for_model("text-embedding-ada-002");
-
 // Function to read and extract text from a PDF file
 async function extractTextFromPDFPlain(filePath) {
   try {
